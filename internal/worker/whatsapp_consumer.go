@@ -21,7 +21,7 @@ func StartWhatsAppConsumer() {
 				os.Getenv("KAFKA_BROKER"),
 			},
 
-			Topic: kafka.WhatsAppTopic,
+			Topic: kafka.OTPTopic,
 
 			GroupID: "whatsapp-worker-group",
 		},

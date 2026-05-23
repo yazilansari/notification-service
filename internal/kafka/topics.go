@@ -1,7 +1,7 @@
 package kafka
 
 const (
-	OTPTopic      = "otp.send"
+	OTPTopic      = "otp.created"
 	WhatsAppTopic = "whatsapp.send"
 	EmailTopic    = "email.send"
 )
